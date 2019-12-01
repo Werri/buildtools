@@ -229,25 +229,25 @@ public class Builder
         File bukkit = new File( "Bukkit" );
         if ( !bukkit.exists() )
         {
-            clone( "https://hub.spigotmc.org/stash/scm/spigot/bukkit.git", bukkit );
+            clone( "https://github.com/Werri/bukkit.git", bukkit );
         }
 
         File craftBukkit = new File( "CraftBukkit" );
         if ( !craftBukkit.exists() )
         {
-            clone( "https://hub.spigotmc.org/stash/scm/spigot/craftbukkit.git", craftBukkit );
+            clone( "https://github.com/Werri/craftbukkit.git", craftBukkit );
         }
 
         File spigot = new File( "Spigot" );
         if ( !spigot.exists() )
         {
-            clone( "https://hub.spigotmc.org/stash/scm/spigot/spigot.git", spigot );
+            clone( "https://github.com/Werri/spigot.git", spigot );
         }
 
         File buildData = new File( "BuildData" );
         if ( !buildData.exists() )
         {
-            clone( "https://hub.spigotmc.org/stash/scm/spigot/builddata.git", buildData );
+            clone( "https://github.com/Werri/builddata.git", buildData );
         }
 
         File maven;
