@@ -290,7 +290,7 @@ public class Builder
                 String verInfo;
                 try
                 {
-                    verInfo = get( "https://hub.spigotmc.org/versions/" + askedVersion + ".json" );
+                    verInfo = get( "https://raw.githubusercontent.com/Werri/spigotversions/master/" + askedVersion + ".json" );
                 } catch ( IOException ex )
                 {
                     System.err.println( "Could not get version " + askedVersion + " does it exist? Try another version or use 'latest'" );
